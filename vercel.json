@@ -1,6 +1,6 @@
 {
-  "framework": "vite",
-  "outputDirectory": "dist/public",
+  "buildCommand": "pnpm install --frozen-lockfile && pnpm --filter @workspace/barbershop-saas run build",
+  "outputDirectory": "artifacts/barbershop-saas/dist/public",
   "rewrites": [
     {
       "source": "/(.*)",
