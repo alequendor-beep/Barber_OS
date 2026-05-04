@@ -1,0 +1,96 @@
+Desarrolla un sitio web moderno para una pagina de agendamiento de citas de barberías como es el sitio web weibook.co.
+Aquí tienes la adaptación completa de los requerimientos. Se ha mantenido exactamente la misma identidad visual, estética minimalista y características técnicas que pediste, pero la estructura y funcionalidad han sido rediseñadas para crear una plataforma SaaS (Software as a Service) de gestión y agendamiento para barberías, al estilo de Weibook.co, con flujos independientes para Administradores (Barberos) y Usuarios (Clientes).
+________________________________________
+DISEÑO Y ESTÉTICA (Se mantiene la base)
+•	Paleta minimalista: Fondo blanco puro (#FFFFFF), negro (#0A0A0A), un color de acento vibrante (#6366F1 - índigo) para botones de agendamiento y llamadas a la acción (CTAs).
+•	Tipografía moderna: Sans-serif geométrica para títulos (estilo Outfit), monospace para detalles técnicos o códigos de reserva.
+•	Diseño limpio: Mucho espacio en blanco (whitespace al 55%) para evitar saturación en calendarios y listas de servicios.
+•	Micro-interacciones: En elementos interactivos (hover en horas disponibles, botones de confirmación).
+•	Grid system: Visible sutilmente en los paneles de administración (dashboards).
+________________________________________
+HERO SECTION (Landing Page Principal)
+•	Diseño centrado y minimalista: Enfocado a la conversión.
+•	Headline grande (Outfit bold): "La gestión de tu barbería, llevada al siguiente nivel."
+•	Subheadline: "Agenda, administra y crece. La plataforma definitiva tanto para barberos profesionales como para clientes exigentes."
+•	Visual principal: Mockup dual flotante. A la izquierda un iPhone mostrando la app del cliente agendando, a la derecha una MacBook mostrando el Dashboard del administrador.
+•	Botones CTA (Split):
+o	Botón Principal (Índigo): "Registrar mi Barbería" (Animación de brillo sutil).
+o	Botón Secundario (Outline): "Soy Cliente - Buscar Barbería" (Underline animation).
+•	Scroll indicator: Flecha animada hacia abajo invitando a descubrir las features.
+________________________________________
+ONBOARDING Y REGISTRO (Nueva sección funcional)
+•	Layout de pantalla dividida (Split Screen):
+o	Izquierda (Oscura): "Quiero gestionar mi Barbería" (Lleva al registro de Admin).
+o	Derecha (Clara): "Quiero agendar un corte" (Lleva al registro de Usuario).
+•	Formularios de registro (Multistep limpios):
+o	Admin: Nombre de la barbería, ubicación, horario base, creación de cuenta.
+o	Usuario: Nombre, teléfono, email, contraseña.
+________________________________________
+PANEL ADMIN / BARBERO (Sustituye "Caso de Estudio")
+•	Sidebar Navigation: Menú lateral colapsable oscuro (#0A0A0A) con íconos para: Dashboard, Calendario, Servicios, Equipo, Clientes, Configuración.
+•	Dashboard (Vista General): Grid asimétrico tipo Bento con tarjetas elevadas:
+o	Citas de hoy (lista rápida).
+o	Ingresos del día/mes (Gráfico de barras minimalista).
+o	Próximo cliente (con botón rápido de "Marcar como completado" o "No asistió").
+•	Calendario de Citas: Interfaz limpia tipo drag-and-drop. Columnas por barbero, bloques de tiempo de 15/30 mins. Micro-interacciones al arrastrar una cita para cambiarla de hora.
+•	Gestión de Servicios: Lista en formato tabla limpia donde pueden agregar: Nombre del servicio (ej. Fade + Barba), Duración, Precio y Fotografía referencial.
+•	Gestión de Equipo: Perfiles de los barberos del local, asignación de horarios y permisos.
+•	Link de Reservas: Sección destacada para copiar el "Link único de la barbería" para poner en Instagram/WhatsApp.
+________________________________________
+PANEL DE USUARIO / CLIENTE (Sustituye "Proyectos/Portfolio")
+•	Dashboard del Cliente (Grid tipo Bento):
+o	Próxima cita (Card grande destacada): Fecha, hora, nombre del barbero, cuenta regresiva, y botón rojo discreto para "Cancelar/Reprogramar".
+o	Historial: Últimos cortes realizados con botón de "Volver a agendar".
+o	Barberías Favoritas: Slider horizontal de tarjetas.
+•	Flujo de Agendamiento (Paso a paso modal o página dedicada):
+1.	Explorar/Buscar: Barra de búsqueda o selector de barbería.
+2.	Seleccionar Servicio: Tarjetas clickeables (imagen, título, precio, duración). Hover effect hace zoom ligero.
+3.	Seleccionar Profesional: Avatares circulares de los barberos.
+4.	Calendario: Días y horas disponibles en botones tipo píldora. Las horas ocupadas aparecen en gris/bloqueadas.
+5.	Confirmación: Resumen visual del pago/reserva con botón "Confirmar Cita" (Loading animation de checkmark al finalizar).
+________________________________________
+CARACTERÍSTICAS DEL SISTEMA (Sustituye "Skills & Herramientas")
+•	Sección en Landing Page (Grid de 3 columnas):
+•	Cada feature con su ícono monospace, título y descripción:
+o	Agenda 24/7: Tus clientes reservan a cualquier hora.
+o	Recordatorios Automáticos: Notificaciones por WhatsApp o Email (Ícono de campana).
+o	Control de Ingresos: Estadísticas en tiempo real (Ícono de gráfica).
+o	Multi-barbero: Gestiona a todo tu equipo en un solo lugar.
+•	Interacción: Iconos en blanco y negro que se vuelven color índigo al hacer hover.
+________________________________________
+CÓMO FUNCIONA (Sustituye "Proceso de trabajo")
+•	Timeline interactivo (Toggle para "Barberos" o "Clientes"):
+o	Para Barberos: 1. Crea tu perfil -> 2. Añade servicios -> 3. Comparte tu link -> 4. Recibe reservas en automático.
+o	Para Clientes: 1. Encuentra tu local -> 2. Elige servicio y hora -> 3. Confirma -> 4. Disfruta tu corte.
+•	Diseño en línea horizontal con conectores y animaciones smooth al cambiar el toggle.
+________________________________________
+PLANES Y PRECIOS (Nueva sección)
+•	Pricing tables (3 columnas): Básico (Gratis), Pro (Destacado), Premium.
+•	Diseño tipo card elevada. La tarjeta "Pro" tiene un borde índigo (#6366F1) y etiqueta "Más popular".
+•	Lista de features permitidas por plan (ej. "Hasta 50 citas/mes", "Recordatorios por WhatsApp", "Equipo ilimitado").
+•	Toggle interactivo "Mensual / Anual" (animación smooth que cambia los precios numéricos).
+________________________________________
+BARBERÍAS TOP & TESTIMONIALES (Sustituye Experiencia)
+•	Logos/Marcas: Sección "Confiado por las mejores barberías". Logos en escala de grises que toman color al hacer hover.
+•	Slider minimalista: 2-3 testimoniales estilo card con sombra suave.
+o	Quote del dueño de la barbería: "Me ahorra 10 horas de responder mensajes por WhatsApp a la semana."
+o	Foto de la barbería, nombre y ubicación. Navegación con dots debajo.
+________________________________________
+FOOTER & CONTACTO
+•	Call to action pre-footer (Fondo de color acento #6366F1):
+o	Headline: "¿Listo para modernizar tu barbería?"
+o	Botón blanco masivo: "Comenzar prueba gratis de 14 días".
+•	Footer Minimalista:
+o	Logo de la plataforma.
+o	Links divididos en columnas: Producto (Precios, Funciones), Soporte (Ayuda, Contacto), Legal (Términos, Privacidad).
+o	Selector de idioma / Copyright.
+________________________________________
+CARACTERÍSTICAS TÉCNICAS Y MOBILE OPTIMIZATION (Sin cambios)
+•	Single Page Application (SPA): Transiciones ultrarrápidas entre el calendario y los servicios (Ideal Next.js o React).
+•	Modo Oscuro Toggle: Crucial para barberos que prefieren el panel oscuro mientras trabajan.
+•	Mobile First (Crítico):
+o	Stack vertical total.
+o	Menú hamburguesa en landing. En el Dashboard, navegación estilo "Bottom Tab Bar" (como Instagram/Spotify) para que el barbero la use con una mano.
+o	Botones touch-friendly (mínimo 44x44px) para seleccionar fechas y horas desde el celular.
+o	Calendarios swipeables lateralmente.
+•	Loading state: Esqueleto de carga (skeleton loaders) sutiles mientras cargan las citas disponibles.
